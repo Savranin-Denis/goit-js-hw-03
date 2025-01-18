@@ -1,4 +1,5 @@
 // Задача 1. Генератор slug
+
 function slugify(title) {
   let optimizeTitle = title.toLowerCase().split(' ').join('-');
   //   return optimizeTitle.join('-');
